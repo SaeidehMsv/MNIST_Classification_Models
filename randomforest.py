@@ -24,7 +24,6 @@ X_test = scale(X_test)
 
 
 
-#random forest
 rf = RandomForestClassifier(n_estimators = 1000, random_state = 42)
 
 
