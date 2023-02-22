@@ -1,4 +1,3 @@
-
 import pandas as pd
 from sklearn.svm import SVC  
 from sklearn.preprocessing import scale
@@ -6,8 +5,8 @@ import numpy as np
 
 
 
-train_data = pd.read_csv("/home/saeideh/Desktop/mnist/mnist_train.csv") 
-test_data = pd.read_csv("/home/saeideh/Desktop/mnist/mnist_test.csv")
+train_data = pd.read_csv("mnist_train.csv")
+test_data = pd.read_csv("/mnist_test.csv")
 #print(train_data.head())
 
 y_train = train_data['label']
